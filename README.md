@@ -3,7 +3,7 @@ L’objectif du projet consiste à développer un site web dynamique d’une bou
 ## Présentation
 Grâce à une boutique en ligne ou magasin en ligne, le client peut choisir et payer des articles sans déplacer au magasin reel, pour acheter un produit il suffit de choisir les articles desires et les ajouter dans le panier.
 Le client ou le visiteur de site peut, ensuite valider son panier s’il est connecté a son compte personnel sur la boutique en ligne après il est capable de telecharger la facture de commande contient tous les informations sur les articles payes ainsi le montant de la commande.
-## L'aapplication web permettra de réaliser les opérations suivantes
+## L'application web permettra de réaliser les opérations suivantes
   1. __Client__ 
      1. __L’inscription du client__ mais ce la se fait uniquement pour la première confirmation du panier mais après, mon client peut s’authentifier avec son E-mail et son mot de passe pour passer d’autres confirmation ou d’ailleur commande.
      2. __Ajout des produits__ au panier après le choix d’un article le client/visiteur doit mentionner la quantité qui s’ajoute a son panier avec le prix unitaire aussi le prix total (le prix unitaire multiplier par la quantité).
