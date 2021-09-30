@@ -1,0 +1,82 @@
+.form {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#form table{
+border-radius:10px;
+padding:20px 30px;
+font-size:14px;
+font-weight:bold;
+max-height: 650px;
+width:50%;
+opacity: .8;
+}
+#form table tr th span{
+	color: #ff0000;
+}
+#form table tr td label{
+	color: #ffffff;
+}
+#form table tr td input{
+min-width:200%;
+height:30px;
+margin-top:5px;
+margin-bottom: 20px;
+border:1px solid #999;
+border-radius:4px;
+border: 1px solid #708090;
+opacity: .5;
+}
+
+textarea{
+min-width:200%;
+height:110px;
+margin-top:5px;
+border-radius:4px;
+resize:none;
+border: 1px solid #708090;
+opacity: .5;
+}
+#form table tr td input[type=submit]{
+font-family: serif;
+font-weight:bold;
+font-size:18px;
+color: #000000;
+min-width: 15%;
+}
+#form select{
+	width: 150px;
+	border: none;
+	opacity: .4;
+}
+#form table td span{
+color:red;
+}
+#form table tr td input:hover,#form table tr td textarea:hover{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.25), 0 17px 50px 0 rgba(0,0,0,0.16);
+}
+.error{
+color:#ffffff;
+background-color: #ff0000;
+padding: 7px;
+border-radius:8px;
+max-width: 30%;
+}
+.done{
+color: #ffffff;
+background-color: #008000;	
+padding: 7px;
+border-radius:8px;
+max-width: 50%;
+}
+.closebtn {
+color: #000000;
+font-weight: bold;
+float: right;
+font-size: 22px;
+line-height: 20px;
+cursor: pointer;
+transition: 0.3s;
+}

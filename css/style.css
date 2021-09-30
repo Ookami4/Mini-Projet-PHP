@@ -1,0 +1,204 @@
+html, body
+{
+height: 100%;
+}
+body
+{
+margin: 50px 0 0 0;
+padding: 0px;
+font-family: 'Open Sans', sans-serif;
+font-size: 11pt;
+font-weight: 300px;
+color: #6c6c6c;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+a
+{
+color: #242424;
+}
+a:hover
+{
+text-decoration: none;
+}
+
+/*********************************************************************/
+/*      navbar                                                       */
+/*********************************************************************/
+.navbar{
+width: 100%;
+background-color: #242424;
+border-top: 4px solid #ff0000;
+position: fixed;
+top: 0;
+height:55px;
+opacity: .9;
+}
+.navbar img{
+width: 178px;
+height: 55px;
+float: left;
+left: 2px;
+display: block;
+}
+.navbar h2{
+display: inline-block;
+font-family: cursive;
+float: left;
+color: #ffffff;
+margin-bottom: 10px;
+}
+.navbar ul
+{
+margin-top: 0;
+padding: 0;
+list-style: none;
+}
+.navbar li
+{
+display: block;
+float: left;
+text-align: center;
+height: 55px;
+}
+.navbar a {
+float: left;
+padding: 12px;
+text-decoration: none;
+font-size: 17px;
+color:#ffffff;
+}
+.navbar a:hover {
+color: black;
+}
+.navbar ul li:hover{
+color: white;
+border-radius: 6px;
+background-color: #ff0000;
+}
+.navbar ul ul {
+display: none;
+}
+.navbar ul li:hover > ul{
+display: block;
+}
+/************************/
+/*    interface         */
+/************************/
+#header{
+width: 95%;
+max-height: 300px;
+left: 40px;
+margin: 40px;
+padding: 10px;
+vertical-align: middle;
+}
+#header img{
+width: 95%;
+max-height: 250px;
+left:40px;
+}
+/************************************/
+/*                categories        */
+/*************************************/
+#suggestion{
+width: 95%;
+margin: 20px;
+padding: 5px;
+border:1px solid #f1f1f1;
+vertical-align: middle;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/****************************************/
+/*          home                        */ 
+/****************************************/
+#items{
+width: 95%;
+margin: 20px;
+padding: 5px;
+border:1px solid #f1f1f1;
+vertical-align: middle;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#item-list{
+width: 220px;
+min-height: 290px;
+margin: 15px;
+padding-left: 2px;
+float: left;
+}
+#item-list p:hover{
+	color: #000000;
+}
+#item-list img{
+	margin: 4px;
+	border-radius: 8px;
+	width: 220px;
+	height: 220px;
+}
+button{
+	border-radius: 4px;
+	border:none;
+    background-color: #DC143C;
+	width: 100px;
+	height: 30px;
+	position: center;
+}
+button:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/******************************/
+/*     Admin space            */
+/******************************/
+#container{
+width: 100%;
+padding: 5px;
+margin:auto;
+margin-top: 5px;
+margin-bottom: 5%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ #admin-profil{
+	width: 25%;
+	padding: 5px;
+	margin: 5px;
+	vertical-align: middle;
+	text-align: center;
+	min-height: 100px;
+	display: inline-block;
+	border:1px solid #f1f1f1;
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.2) 0 5px 5px 0 rgba(0,0,0,.25);
+}
+ #board{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.2) 0 5px 5px 0 rgba(0,0,0,.25);
+	min-height: 100px;
+	display: inline-block;
+	border: 1px solid #f1f1f1;
+	background-color: #fff;
+	width: 70%;
+	vertical-align: middle;
+	padding: 20px;
+	margin: 5px;
+}
+/*****************************/
+/*   footer                  */
+/****************************/
+footer{
+   left: 0;
+   margin-top: auto;
+   width: 100%;
+   text-align: center;
+   background-color:#242424;
+   color: #6c6c6c;
+}
+footer a i{
+	color: #ff0000;
+}
